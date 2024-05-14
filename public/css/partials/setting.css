@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+
+}
+@font-face {
+  font-family: IRANYEKAN;
+  src: url(../../fonts/IRANYekanWeb.eot);
+  src: url(../../fonts/IRANYekanWeb.ttf);
+  src: url(../../fonts/IRANYekanWeb.woff);
+  src: url(../../fonts/IRANYekanWeb.woff2);
+
+}
+:root {
+  --font-family: IRANYEKAN;
+}
+/* var(--font-family) */
+.wrapper {
+  width: 100%;
+}
+
